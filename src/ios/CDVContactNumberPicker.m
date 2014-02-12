@@ -7,7 +7,6 @@
 //
 
 #import "CDVContactNumberPicker.h"
-#import <Cordova/CDVAvailability.h>
 
 @implementation CDVContactNumberPicker
 @synthesize callbackID;
