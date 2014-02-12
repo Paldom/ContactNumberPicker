@@ -37,6 +37,11 @@
 
 	  <header-file src="src/ios/CDVContactNumberPicker.h" />
 	  <source-file src="src/ios/CDVContactNumberPicker.m" />
+	  
+	  
+	  <framework src="AddressBook.framework" />
+      <framework src="AddressBookUI.framework" />
+        
 	</platform>
 	
 </plugin>
