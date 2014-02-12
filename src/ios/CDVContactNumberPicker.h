@@ -1,9 +1,5 @@
 //
 //  CDVContactNumberPicker.h
-//  HelloWorld
-//
-//  Created by Domonkos Pál on 2014.02.10..
-//
 //
 
 #import <UIKit/UIKit.h>
