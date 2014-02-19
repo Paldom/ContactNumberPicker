@@ -2,6 +2,7 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
            id="hu.dpal.phonegap.plugins.ContactNumberPicker"
+xmlns:android="http://schemas.android.com/apk/res/android"
       version="0.1.1">
 
     <name>ContactNumberPicker</name>
