@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
            id="hu.dpal.phonegap.plugins.ContactNumberPicker"
-      version="0.1.0">
+      version="0.1.1">
 
     <name>ContactNumberPicker</name>
     
@@ -21,6 +21,11 @@
             <feature name="ContactNumberPicker">
                 <param name="android-package" value="hu.dpal.phonegap.plugins.ContactNumberPicker"/>
             </feature>
+        </config-file>
+        
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.READ_CONTACTS" />
+            <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         </config-file>
         
         <source-file src="src/android/ContactNumberPicker.java" target-dir="src/hu/dpal/phonegap/plugins" />
