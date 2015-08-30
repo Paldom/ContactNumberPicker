@@ -79,6 +79,10 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:self.callbackID];
 }
 
+- (void)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker didSelectPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier
+{
+    [self peoplePickerNavigationController:peoplePicker shouldContinueAfterSelectingPerson:person property:property identifier:identifier];
+}
 
 - (BOOL)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker shouldContinueAfterSelectingPerson:(ABRecordRef)person
 {
@@ -100,11 +104,6 @@
     [self.viewController dismissModalViewControllerAnimated:YES];
     [super writeJavascript:[[CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT]
                             toErrorCallbackString:self.callbackID]];
-}
-
-- (void)peoplePickerNavigationController:(ABPeoplePickerNavigationController *)peoplePicker didSelectPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier
-{
-    [self peoplePickerNavigationController:peoplePicker shouldContinueAfterSelectingPerson:person property:property identifier:identifier];
 }
 
 @end
