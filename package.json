@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-contact-number-picker",
+  "version": "0.1.1",
+  "description": "PhoneGap plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.",
+  "cordova": {
+    "id": "cordova-plugin-contact-number-picker",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paldom/ContactNumberPicker.git"
+  },
+  "keywords": [
+    "phonegap",
+    "android",
+    "ios",
+    "phone",
+    "number",
+    "contact",
+    "picker",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paldom/ContactNumberPicker/issues"
+  },
+  "homepage": "https://github.com/Paldom/ContactNumberPicker#readme"
+}
