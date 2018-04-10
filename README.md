@@ -1,7 +1,7 @@
 ContactNumberPicker
 ===================
 
-PhoneGap plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.
+Cordova plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.
 Ideas from https://github.com/hazemhagrass/ContactPicker.git
 
 Usage:
@@ -14,4 +14,3 @@ Usage:
         setTimeout(function(){alert(result);},0);
     }
     window.plugins.contactNumberPicker.pick(successCallback,failedCallback);
-

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-           id="hu.dpal.phonegap.plugins.ContactNumberPicker"
+           id="mahtonu.cordova.plugins.ContactNumberPicker"
 xmlns:android="http://schemas.android.com/apk/res/android"
       version="0.1.1">
 
     <name>ContactNumberPicker</name>
-    
+
 	<description>
 		PhoneGap plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.	</description>
 	<license>MIT</license>
-	<keywords>phonegap,android,ios,phone,number,contact,picker</keywords>
+	<keywords>cordova,android,ios,phone,number,contact,picker</keywords>
 
 	<js-module src="www/contactNumberPicker.js" name="ContactNumberPicker">
 	  <merges target="window.plugins.contactNumberPicker" />
 	</js-module>
-	
+
 	<!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ContactNumberPicker">
-                <param name="android-package" value="hu.dpal.phonegap.plugins.ContactNumberPicker"/>
+                <param name="android-package" value="mahtonu.cordova.plugins.ContactNumberPicker"/>
             </feature>
         </config-file>
-        
+
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_CONTACTS" />
             <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         </config-file>
-        
-        <source-file src="src/android/ContactNumberPicker.java" target-dir="src/hu/dpal/phonegap/plugins" />
-        
+
+        <source-file src="src/android/ContactNumberPicker.java" target-dir="src/mahtonu/cordova/plugins" />
+
     </platform>
 
 	<!-- ios -->
@@ -43,12 +43,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 	  <header-file src="src/ios/CDVContactNumberPicker.h" />
 	  <source-file src="src/ios/CDVContactNumberPicker.m" />
-	  
-	  
+
+
 	  <framework src="AddressBook.framework" />
       <framework src="AddressBookUI.framework" />
-        
-	</platform>
-	
-</plugin>
 
+	</platform>
+
+</plugin>
