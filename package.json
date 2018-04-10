@@ -1,0 +1,34 @@
+{
+  "name": "contactnumberpicker",
+  "version": "0.1.1",
+  "description": "\n\t\tCordova plugin for native contact number picker on Android and iOS. The picker shows only name and phone numbers.\t",
+  "cordova": {
+    "id": "mahtonu.cordova.plugins.ContactNumberPicker",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahtonu/ContactNumberPicker.git"
+  },
+  "keywords": [
+    "phonegap",
+    "android",
+    "ios",
+    "phone",
+    "number",
+    "contact",
+    "picker",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "M A Hossain Tonu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahtonu/ContactNumberPicker/issues"
+  },
+  "homepage": "https://github.com/mahtonu/ContactNumberPicker#readme"
+}
