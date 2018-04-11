@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-           id="mahtonu.cordova.plugins.ContactNumberPicker"
+           id="contact-number-picker"
 xmlns:android="http://schemas.android.com/apk/res/android"
-      version="0.1.1">
+      version="0.0.1">
 
-    <name>contact-number-picker</name>
+    <name>ContactNumberPicker</name>
 
 	<description>
-		PhoneGap plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.	</description>
+		Cordova plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.	</description>
 	<license>MIT</license>
 	<keywords>cordova,android,ios,phone,number,contact,picker</keywords>
 
