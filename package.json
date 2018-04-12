@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-contact-number-picker-new",
+  "name": "cordova-plugin-contact-numberpicker",
   "version": "0.0.1",
   "description": "\n\t\tCordova plugin for native contact number picker on Android and iOS. The picker shows only name and phone numbers.\t",
   "cordova": {
-    "id": "cordova-plugin-contact-number-picker-new",
+    "id": "cordova-plugin-contact-numberpicker",
     "platforms": [
       "android",
       "ios"
