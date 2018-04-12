@@ -1,8 +1,13 @@
-ContactNumberPicker
-===================
+Contact Number Picker
+=====================
 
-Cordova plugin for native contact picker on Android and iOS. The picker shows only name and phone numbers.
-Ideas from https://github.com/hazemhagrass/ContactPicker.git
+Cordova plugin to pick a single number of a Contact instead of full contact details. Ideal to fill a mobile or phone number field.
+
+You can tap on a specific number among multiple numbers and get that particular number in return. For, iOS the tap doesn't place a Call.
+
+Supported Platforms: iOS & Android. (You're welcome to contribute more platforms)
+
+N.B: Forked from the https://github.com/Paldom/ContactNumberPicker since this was no longer in maintain.
 
 Usage:
 
